@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.green{
+    width: 400px;
+    height: 250px;
+    margin: 20px auto;
+    background: green;
+    position: relative;
+}
+.red{
+    width: 140px;
+    height: 140px;
+    background: red;
+    border-radius: 100%;
+    position: absolute;
+    top: 21%;
+    right: 32%;
+}
+.fb-share{
+    width: 140px;
+    position: fixed;
+    top: 50%;
+    right: -95px;
+    transition: 1s ease-in;
+}
+.fb-share:hover{
+    right: 2px;
+    cursor: pointer;
+}
+.social-media{
+    width: 100%;
+    padding: 100px 0;
+}
+.social-media-icons{
+    width: 100%;
+    text-align: center;
+}
+.social-media-icons li{
+    list-style: none;
+    display: inline-block;
+}
+.social-media-icons li a{
+    display: block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 100%;
+    background: #3e5cbf;
+    color: white;
+    font-size: 24px;
+    margin: 60px 5px;
+    transition: 0.4s ease-in;
+}
+.social-media-icons li a:hover{
+    background: black;
+    color: red;
+}
